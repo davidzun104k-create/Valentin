@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Carta de San Valentín</title>
+</head>
+<body>
+    <div class="valentines-container">
+        <h1>Feliz San Valentín</h1>
+        
+        <div class="envelope">
+            <div class="envelope-front">
+                <div class="heart"><i class="fas fa-heart"></i></div>
+            </div>
+            
+            <div class="letter">
+                <div class="letter-content">
+                    <div class="letter-header">
+                        <h2><i class="fas fa-star"></i> Querida Princesa <i class="fas fa-star"></i></h2>
+                        <div class="date">14 de Febrero</div>
+                    </div>
+                    
+                    <div class="letter-body">
+                        <p>
+                            Sé que no se suele pedir esto, ni tampoco imagine llegar a hacer esto, pero aqui estoy jaja.
+                            Quería ser original entonces:
+                        </p>
+                        
+                        <p>
+                            Desde que te conocí, mi corazón late más rápido que nunca y nunca pensé llegar a estar así con alguien
+                            . Eres más brillante que un mensaje de <strong>"te amo"</strong> en 
+                            <strong>LED gigante</strong> y tan linda y tierna que me hipnotisas.
+                        </p>
+                        
+                        <p>
+                            Yo antes era de piedra, pero le hiciste Jaque Mate a mi corazón <span class="code">(!!)</span>,
+                            y por eso aqui estoy pipeado como dices tú jaja, pero no deja de ser cierto.
+                            Y ahora que casi no nos vemos, cuento los segundos por volver a verte.
+                        </p>
+                        
+                        <p>
+                            Gracias por hacer de mi vida una versión mejorada y como siempre gracias por todo y perdón por tampoco.
+                        </p>
+                        
+                        <div class="letter-footer">
+                            <p><strong>Feliz San Valentín</strong>, mi <em>estrella favorita</em>.</p>
+                            <p>Con mucho <strong class="highlight">código</strong> y <strong class="highlight">amor</strong>,</p>
+                            <p class="signature">Tu programador enamorado</p>
+                            
+                            <div class="postscript">
+                                <p><small>
+                                    <i class="fas fa-code"></i> PD: Si esta carta fuera un programa, su salida sería:<br>
+                                    <code>"Eres lo mejor que me ha pasado."</code>
+                                </small></p>
+                                <p class="signature">Quieres ser mi San Valentín??</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <p><i class="fas fa-mouse-pointer"></i> Haz clic en el sobre para abrir la carta</p>
+        </div>
+    </div>
+    <div class="share-container">
+            <div class="share-title">
+                <i class="fas fa-share-alt"></i> Compartir esta carta
+            </div>
+            <p style="margin-bottom: 15px; color: #666;">
+                ¡Tu carta ya está lista! Compártela por WhatsApp:
+            </p>
+            <button class="whatsapp-btn" onclick="shareOnWhatsApp()">
+                <i class="fab fa-whatsapp"></i> Compartir por WhatsApp
+            </button>
+            <div class="link-display" id="linkDisplay">
+                <!-- Aquí aparecerá tu link cuando lo tengas -->
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
